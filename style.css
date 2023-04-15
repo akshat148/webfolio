@@ -1,0 +1,502 @@
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+ 
+body{background-color: black;}
+.sec-1{
+   align-items: center;
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: row-reverse;
+   height: 650px;
+}
+.sec-1 .para{
+    position: relative;
+    justify-content: center;
+    right: 20px;
+}
+.sec-1 .para .h1{
+    position: relative;
+    left: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    width: fit-content;
+    background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.sec-1 .para .inp{
+    
+    font-family: 'Raleway', sans-serif;
+    text-align: center; 
+    color: whitesmoke;
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.1em solid #000;
+    font-size: 1.2em;
+    
+    
+}
+.sec-1 .intro img{
+    transform: scale(110%);
+    filter: brightness(110%);
+    
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-between;
+}
+.sec2 .container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    
+}
+.sec2 .container .but2{
+    position: relative;
+    top: 40px;
+    background-color: rgb(126, 88, 212);
+    color: #f5f0f0;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: transparent;
+    left: 300px;
+    inset: 0;
+    overflow: hidden;
+    transition: transform .2s ease-in-out ;
+    left: 20%;
+  
+}
+.sec2 .container .but2 a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    font-family: "Raleway";
+}
+.sec2 .container .but2:hover{
+    transform:scale(1.2) ;
+}
+
+
+
+
+.sec2 .container .sec2-p{
+color: #00ffff;
+font-family: 'Raleway', sans-serif;
+font-weight: lighter;
+font-size: larger;
+line-height: 1.5;
+text-align: justify;
+padding: 10px;
+border-radius: 5px;
+
+
+}
+
+
+.sec2 .ab{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    width: fit-content;
+    background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sec2 .fun-button{
+    position: relative;
+    top: 40px;
+    background-color: rgb(126, 88, 212);
+    color: #f5f0f0;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: transparent;
+    left: 300px;
+    z-index: 1;
+    font-weight: bold;
+    font-size: larger;
+    font-family: "Raleway";
+}
+.sec2 .fun-button:hover{
+    left: -300px;
+    
+    
+}
+.sec2 .container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sec2 .container2 img{
+    position: relative;
+    top: 20px;
+width: 600px;
+height: 400px;
+}
+.sec3{
+    display: flex;
+}
+.sec3 .profile-card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Set column widths */
+    grid-gap: 20px; /* Add spacing between columns */
+    border: 1px solid #ddd; /* Add border */
+    border-radius: 10px; /* Add rounded corners */
+    padding: 20px; /* Add padding */
+    max-width: 700px; /* Set maximum width */
+    margin: auto; /* Center the card horizontally */
+    right: 290px;
+    justify-content: space-around;
+    top: 10px;
+  }
+  
+  .profile-image {
+    background-image: url("https://i.ibb.co/Qb8QVz4/ji-1.jpg"); /* Add image */
+    background-size: cover; /* Scale image to fill container */
+    background-position: center; /* Center image */
+    height: 150px; /* Set image height */
+    width: 150px;
+    border-radius: 50%; /* Make image circular */
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h2 {
+    margin: 0 0 10px; /* Add margin below heading */
+  }
+  
+  p {
+    margin: 10px; /* Remove default margins on paragraphs */
+  }
+  
+  .sec3 .container3 {
+    height: 200px;
+    width: 200px;
+    position: relative;
+  }
+  
+  .sec3 .ball {
+    position: relative;
+    top: 40%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(240, 140, 195);
+    position: absolute;
+    bottom: 0;
+    animation: bounce 3s infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translatex(0);
+    }
+    50% {
+      transform: translatex(-550px);
+    }
+    
+    100% {
+      transform: translatex(0);
+    }
+    
+  }
+  .sec4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* left: px; */
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform .2s ease-in-out ;
+  }
+  .card:hover {
+    transform:scale(1.2) ;
+  }
+
+
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ddd;
+    font-family: "Raleway";
+
+  }
+  .card h2 a{
+    color: #000;
+    text-decoration: none;
+  }
+
+
+
+  
+  .card p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #ddd;
+    font-family: "Raleway";
+
+
+  }
+
+.good{
+    position: relative;
+    justify-content: center;
+    left: 400px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    width: fit-content;
+    background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  
+  .sec5 .grid-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .sec5 .grid-container .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: "Raleway";
+
+  }
+  
+  .sec5 .grid-container .card p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: black;
+    font-family: "Raleway";
+  }
+
+   .sec6 .good{
+        position: relative;
+        justify-content: center;
+        left: 520px;
+        text-align: center;
+        font-size: 45px;
+        font-family: 'Raleway', sans-serif;
+        width: fit-content;
+        background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+      }
+      .sec6 .contact{
+        display: flex;
+        justify-content: space-between;
+      }
+      .sec6 .contact .social{
+        display: flex;
+        flex-direction: column;
+
+      }
+      .sec6 .contact .social img{
+        width: 30px;
+        height: 30px;
+        justify-content: space-between;
+        margin: 5px;
+        border-radius: 10px;
+        transition: transform .2s ease-in-out ;
+
+      }
+      .sec6 .contact .social img:hover{
+        transform:scale(1.4) ;
+
+      }
+
+.sec6 .mail{
+  position: relative;
+right: 200px;
+
+}
+.sec6 .mail .mail1{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Raleway', sans-serif;
+  transition: transform .2s ease-in-out ;
+
+}
+.sec6 .mail .mail1:hover{
+  transform:scale(1.4) ;
+
+}
+
+.sec6 .mail .mail1 img{
+  width: 60px;
+  height: 65px;
+}
+
+.sec6 .form .name{
+/* width: 00px; */
+height: 45px;
+}
+.sec6 .form .name .p-text{
+  width: 300px;
+  height: 35px;
+        border: transparent;
+        border-radius: 10px;
+        font-family: 'Raleway', sans-serif;
+
+  }
+
+  .sec6 .form .email{
+    /* width: 500px; */
+    height: 45px;
+    }
+    .sec6 .form .email .p-text{
+      width: 300px;
+      height: 35px;
+        border: transparent;
+        border-radius: 10px;
+        font-family: 'Raleway', sans-serif;
+
+
+      }
+    .form div textarea{
+      width: 300px;
+        height: 65px;
+  border-radius: 10px;
+  border: transparent;
+  font-family: 'Raleway', sans-serif;
+
+
+    }
+      .form button{
+        background-color: #9f9ff8;
+        border-radius: 10px;
+        border: transparent;
+        width: 200px;
+        height: 50px;
+        font-family: 'Raleway', sans-serif;
+        font-size: larger;
+        font-weight: bolder;
+
+      }
+      .form button:hover{
+background-color: #f5f0f0;      }
+
+      .eclipse-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        right: 180px;
+        top: 60px;
+      }
+      
+      .eclipse {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color:transparent;
+        /* box-shadow: 0 0 50px 10px #fff, 0 0 0 30px #000; */
+        animation: eclipse-rotate 10s linear infinite;
+      }
+      
+      .sun, .moon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+      }
+      
+      .sun {
+        background-color: #ff0;
+        box-shadow: 0 0 50px 10px #ff0;
+        animation: sun-rotate 4s linear infinite;
+      }
+      
+      .moon {
+        background-color: #fff;
+        box-shadow: 0 0 50px 10px #fff;
+        animation: moon-rotate 4s linear infinite;
+      }
+      
+      @keyframes eclipse-rotate {
+        from {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(360deg);
+        }
+      }
+      
+      @keyframes sun-rotate {
+        from {
+          transform: translate(-50%, -50%) rotate(0deg) translateX(60px);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(360deg) translateX(60px);
+        }
+      }
+      
+      @keyframes moon-rotate {
+        from {
+          transform: translate(-50%, -50%) rotate(0deg) translateX(-60px);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(360deg) translateX(-60px);
+        }
+      }
+      
